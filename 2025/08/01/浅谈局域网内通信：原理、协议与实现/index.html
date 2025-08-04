@@ -311,12 +311,9 @@
 <div class="kira-post">
 	<article>
 		
-		<div
-			class="kira-post-cover"
-			style="padding-bottom: '56.25%'"
-		>
+		<div class="kira-post-cover">
 			<img
-				data-src="https://pic1.imgdb.cn/item/6885e17a58cb8da5c8e46018.png"
+				data-src="https://pic1.imgdb.cn/item/689066ef58cb8da5c803dea8.png"
 				data-sizes="auto"
 				alt="浅谈局域网内通信：原理、协议与实现"
 				class="lazyload kira-post-cover-image disabled-kira-image"
@@ -326,12 +323,10 @@
 		
 		<div class="kira-post-meta kira-rainbow" style="margin:10px 0!important;">
 			<a><i class="kirafont icon-calendar-fill"></i>2025年08月01日</a>
-			<a><i class="kirafont icon-edit-fill"></i>888 字</a>
+			<a><i class="kirafont icon-edit-fill"></i>758 字</a>
 			<a><i class="kirafont icon-time-circle-fill"></i>大概 3 分钟</a>
 		</div>
-		<html><head></head><body><h1><span id="%E6%B5%85%E8%B0%88%E5%B1%80%E5%9F%9F%E7%BD%91%E5%86%85%E9%80%9A%E4%BF%A1%E5%8E%9F%E7%90%86%E5%8D%8F%E8%AE%AE%E4%B8%8E%E5%AE%9E%E7%8E%B0">浅谈局域网内通信：原理、协议与实现</span></h1><h2><span id="%E6%91%98%E8%A6%81">摘要</span></h2><p>本文系统性地探讨了局域网 (Local Area Network, LAN) 内通信的技术原理、核心协议栈及工程实现。通过分析 OSI 七层模型在局域网中的具体实现，重点剖析了以太网协议、 IP 寻址、 ARP 解析等关键技术，并结合实际网络拓扑图与数据帧结构图，阐述了局域网通信的全过程。文章最后讨论了现代局域网中的性能优化策略与安全考量。</p>
-<hr>
-<h2><span id="1-%E5%B1%80%E5%9F%9F%E7%BD%91%E9%80%9A%E4%BF%A1%E4%BD%93%E7%B3%BB%E6%9E%B6%E6%9E%84">1. 局域网通信体系架构</span></h2><h3><span id="11-osi%E6%A8%A1%E5%9E%8B%E5%9C%A8%E5%B1%80%E5%9F%9F%E7%BD%91%E4%B8%AD%E7%9A%84%E6%98%A0%E5%B0%84">1.1 OSI模型在局域网中的映射</span></h3><p>图1展示了 OSI 七层模型与典型局域网协议栈的对应关系：<br><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.luogu.com.cn/upload/image_hosting/z0nutszy.png" alt="图1" class="lazyload"></p>
+		<html><head></head><body><h1><span id="%E6%B5%85%E8%B0%88%E5%B1%80%E5%9F%9F%E7%BD%91%E5%86%85%E9%80%9A%E4%BF%A1%E5%8E%9F%E7%90%86%E5%8D%8F%E8%AE%AE%E4%B8%8E%E5%AE%9E%E7%8E%B0">浅谈局域网内通信：原理、协议与实现</span></h1><h2><span id="1-%E5%B1%80%E5%9F%9F%E7%BD%91%E9%80%9A%E4%BF%A1%E4%BD%93%E7%B3%BB%E6%9E%B6%E6%9E%84">1. 局域网通信体系架构</span></h2><h3><span id="11-osi%E6%A8%A1%E5%9E%8B%E5%9C%A8%E5%B1%80%E5%9F%9F%E7%BD%91%E4%B8%AD%E7%9A%84%E6%98%A0%E5%B0%84">1.1 OSI模型在局域网中的映射</span></h3><p>图1展示了 OSI 七层模型与典型局域网协议栈的对应关系：<br><img data-fancybox="gallery" data-sizes="auto" data-src="https://cdn.luogu.com.cn/upload/image_hosting/z0nutszy.png" alt="图1" class="lazyload"></p>
 <p>局域网通信主要涉及以下四层：</p>
 <ol>
 <li><strong>物理层</strong>： IEEE  802.3标准（有线）/802.11（无线）</li>
